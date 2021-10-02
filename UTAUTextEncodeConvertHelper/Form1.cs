@@ -87,9 +87,9 @@ namespace UTAUTextEncodeConvertHelper
             try
             {
                 if (string.IsNullOrEmpty(FileName) || FileName == " ")
-                    MessageBox.Show("文件名为空" + "\n\r\n\r保存文件失败。");
+                    MessageBox.Show("File name is empty." + "\n\r\n\rCould not save file.");
                 else if (richTextBoxBefore.Text == "")
-                    MessageBox.Show("未经转换。");
+                    MessageBox.Show("Not converted.");
                 else
                 {
                     if (Equals(MyEncode, JPN))
@@ -100,10 +100,10 @@ namespace UTAUTextEncodeConvertHelper
                     if (UtauPlugin)
                     {
                         Close();
-                        MessageBox.Show("转换完成！");
+                        MessageBox.Show("Conversion complete!");
                     }
                     else
-                        MessageBox.Show("文件保存成功！");
+                        MessageBox.Show("Files saved successfully!");
 
                     richTextBoxAfter.Clear();
                     richTextBoxBefore.Clear();
@@ -111,7 +111,7 @@ namespace UTAUTextEncodeConvertHelper
             }
             catch (Exception ErrorMsg)
             {
-                MessageBox.Show(ErrorMsg + "\n\r\n\r保存文件失败。");
+                MessageBox.Show(ErrorMsg + "\n\r\n\rCould not save file.");
             }
         }
 
@@ -131,7 +131,7 @@ namespace UTAUTextEncodeConvertHelper
                         File.WriteAllText(fileNameSaveAs, richTextBoxBefore.Text.Replace("/n", "/n/r"), Encoding.Default);
                     }
                 }
-                MessageBox.Show("另存为成功");
+                MessageBox.Show("Save As success");
                 richTextBoxAfter.Clear();
                 richTextBoxBefore.Clear();
             }
@@ -145,7 +145,7 @@ namespace UTAUTextEncodeConvertHelper
             if (UtauPlugin)
             {
                 buttonOpenPath.Enabled = false;
-                labelFoldPath.Text = "UTAU插件模式下不可用";
+                labelFoldPath.Text = "Not available in UTAU plugin mode";
                 labelFoldPath.ForeColor = System.Drawing.Color.SlateGray;
             }
 
@@ -160,7 +160,7 @@ namespace UTAUTextEncodeConvertHelper
             {
                 FoldPath = folderBrowserDialog.SelectedPath;
                 DirectoryInfo folder = new DirectoryInfo(FoldPath);
-                labelFoldPath.Text = "文件夹路径：" + FoldPath;
+                labelFoldPath.Text = "Folder path: " + FoldPath;
                 listBoxAfter.Items.Clear();
                 foreach (FileInfo file in folder.GetFiles("*.*"))
                 {
@@ -223,14 +223,14 @@ namespace UTAUTextEncodeConvertHelper
             {
                 if (MyEncode == null)
                 {
-                    MessageBox.Show("清先选择文件编码。");
+                    MessageBox.Show("Please select the file encoding first.");
                 }
                 else
                 {
                     try
                     {
                         string myFileName = listBoxAfter.SelectedItem.ToString();
-                        if (DialogResult.OK == MessageBox.Show("仅转换" + myFileName + "吗？", "转换", MessageBoxButtons.OKCancel))
+                        if (DialogResult.OK == MessageBox.Show("Convert " + myFileName + " only？", "Convert", MessageBoxButtons.OKCancel))
                         {
                             if (myFileName != EncodeConvert.Converter(myFileName, MyEncode))
                             {
@@ -245,7 +245,7 @@ namespace UTAUTextEncodeConvertHelper
                     }
                     catch (Exception exp)
                     {
-                        MessageBox.Show(@"[Warning]" + exp.Message);
+                        MessageBox.Show(@"[Warning] " + exp.Message);
                     }
                     listBoxAfter.Items.Clear();
                     listBoxBefore.Items.Clear();
@@ -274,7 +274,7 @@ namespace UTAUTextEncodeConvertHelper
             int i = 1;
             if (MyEncode == null)
             {
-                MessageBox.Show("清先选择文件编码。");
+                MessageBox.Show("Please select the file encoding first.");
             }
             else
             {
@@ -292,12 +292,12 @@ namespace UTAUTextEncodeConvertHelper
                     }
                     catch (Exception exp)
                     {
-                        MyMsg += "[Warning]" + exp.Message + "\n\r";
+                        MyMsg += "[Warning] " + exp.Message + "\n\r";
                     }
                     backgroundWorker.ReportProgress(i++);
                 }
 
-                MessageBox.Show("[OK]Done! \n\r[耗时]" + DateTime.FromBinary(DateTime.Now.ToBinary() - startTime).TimeOfDay + "\n\r" + MyMsg);
+                MessageBox.Show("[OK] Done! \n\r[Time taken] " + DateTime.FromBinary(DateTime.Now.ToBinary() - startTime).TimeOfDay + "\n\r" + MyMsg);
 
             }
         }

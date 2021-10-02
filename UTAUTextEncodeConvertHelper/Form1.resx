@@ -126,17 +126,20 @@
   </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="buttonConvertToUTF8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 100</value>
+    <value>210, 87</value>
+  </data>
+  <data name="buttonConvertToUTF8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="buttonConvertToUTF8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="buttonConvertToUTF8.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
   </data>
   <data name="buttonConvertToUTF8.Text" xml:space="preserve">
-    <value>转换到UTF-8</value>
+    <value>Convert to UTF-8</value>
   </data>
   <data name="&gt;&gt;buttonConvertToUTF8.Name" xml:space="preserve">
     <value>buttonConvertToUTF8</value>
@@ -151,19 +154,16 @@
     <value>0</value>
   </data>
   <data name="buttonSaveAs.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 173</value>
-  </data>
-  <data name="buttonSaveAs.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>210, 150</value>
   </data>
   <data name="buttonSaveAs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <data name="buttonSaveAs.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
   <data name="buttonSaveAs.Text" xml:space="preserve">
-    <value>另存为转换后内容</value>
+    <value>Save As...</value>
   </data>
   <data name="&gt;&gt;buttonSaveAs.Name" xml:space="preserve">
     <value>buttonSaveAs</value>
@@ -178,13 +178,10 @@
     <value>1</value>
   </data>
   <data name="richTextBoxBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 25</value>
-  </data>
-  <data name="richTextBoxBefore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 22</value>
   </data>
   <data name="richTextBoxBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 330</value>
+    <value>188, 286</value>
   </data>
   <data name="richTextBoxBefore.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -205,22 +202,16 @@
     <value>0</value>
   </data>
   <data name="groupBoxBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>467, 9</value>
-  </data>
-  <data name="groupBoxBefore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="groupBoxBefore.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>350, 8</value>
   </data>
   <data name="groupBoxBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 362</value>
+    <value>200, 314</value>
   </data>
   <data name="groupBoxBefore.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
   </data>
   <data name="groupBoxBefore.Text" xml:space="preserve">
-    <value>转换后</value>
+    <value>After conversion</value>
   </data>
   <data name="&gt;&gt;groupBoxBefore.Name" xml:space="preserve">
     <value>groupBoxBefore</value>
@@ -235,13 +226,10 @@
     <value>2</value>
   </data>
   <data name="richTextBoxAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>8, 25</value>
-  </data>
-  <data name="richTextBoxAfter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>6, 22</value>
   </data>
   <data name="richTextBoxAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>251, 330</value>
+    <value>188, 286</value>
   </data>
   <data name="richTextBoxAfter.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -262,22 +250,16 @@
     <value>0</value>
   </data>
   <data name="groupBoxAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>9, 9</value>
-  </data>
-  <data name="groupBoxAfter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="groupBoxAfter.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>7, 8</value>
   </data>
   <data name="groupBoxAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>267, 362</value>
+    <value>200, 314</value>
   </data>
   <data name="groupBoxAfter.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
   <data name="groupBoxAfter.Text" xml:space="preserve">
-    <value>转换前</value>
+    <value>Before conversion</value>
   </data>
   <data name="&gt;&gt;groupBoxAfter.Name" xml:space="preserve">
     <value>groupBoxAfter</value>
@@ -292,19 +274,16 @@
     <value>3</value>
   </data>
   <data name="buttonConvertToCHN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 64</value>
-  </data>
-  <data name="buttonConvertToCHN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>210, 55</value>
   </data>
   <data name="buttonConvertToCHN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <data name="buttonConvertToCHN.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
   </data>
   <data name="buttonConvertToCHN.Text" xml:space="preserve">
-    <value>转换到GB2312</value>
+    <value>Convert to GB2312</value>
   </data>
   <data name="&gt;&gt;buttonConvertToCHN.Name" xml:space="preserve">
     <value>buttonConvertToCHN</value>
@@ -319,19 +298,16 @@
     <value>4</value>
   </data>
   <data name="buttonSave.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 137</value>
-  </data>
-  <data name="buttonSave.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>210, 119</value>
   </data>
   <data name="buttonSave.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <data name="buttonSave.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="buttonSave.Text" xml:space="preserve">
-    <value>保存转换后内容</value>
+    <value>Save</value>
   </data>
   <data name="&gt;&gt;buttonSave.Name" xml:space="preserve">
     <value>buttonSave</value>
@@ -346,19 +322,16 @@
     <value>5</value>
   </data>
   <data name="buttonConvertToJPN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 27</value>
-  </data>
-  <data name="buttonConvertToJPN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>210, 23</value>
   </data>
   <data name="buttonConvertToJPN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <data name="buttonConvertToJPN.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
   </data>
   <data name="buttonConvertToJPN.Text" xml:space="preserve">
-    <value>转换到Shift_JIS</value>
+    <value>Convert to Shift_JIS</value>
   </data>
   <data name="&gt;&gt;buttonConvertToJPN.Name" xml:space="preserve">
     <value>buttonConvertToJPN</value>
@@ -373,19 +346,16 @@
     <value>6</value>
   </data>
   <data name="buttonRead.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 210</value>
-  </data>
-  <data name="buttonRead.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>210, 182</value>
   </data>
   <data name="buttonRead.Size" type="System.Drawing.Size, System.Drawing">
-    <value>183, 29</value>
+    <value>137, 25</value>
   </data>
   <data name="buttonRead.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
   <data name="buttonRead.Text" xml:space="preserve">
-    <value>读取文件</value>
+    <value>Open...</value>
   </data>
   <data name="&gt;&gt;buttonRead.Name" xml:space="preserve">
     <value>buttonRead</value>
@@ -400,22 +370,19 @@
     <value>7</value>
   </data>
   <data name="tabPageText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
-  </data>
-  <data name="tabPageText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>4, 26</value>
   </data>
   <data name="tabPageText.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 3, 3, 3</value>
   </data>
   <data name="tabPageText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 374</value>
+    <value>558, 323</value>
   </data>
   <data name="tabPageText.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="tabPageText.Text" xml:space="preserve">
-    <value>文本</value>
+    <value>Text</value>
   </data>
   <data name="&gt;&gt;tabPageText.Name" xml:space="preserve">
     <value>tabPageText</value>
@@ -430,10 +397,13 @@
     <value>0</value>
   </data>
   <data name="progressBar.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 275</value>
+    <value>190, 238</value>
+  </data>
+  <data name="progressBar.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="progressBar.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 23</value>
+    <value>176, 20</value>
   </data>
   <data name="progressBar.TabIndex" type="System.Int32, mscorlib">
     <value>22</value>
@@ -457,16 +427,19 @@
     <value>False</value>
   </data>
   <data name="buttonConvertOK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 304</value>
+    <value>190, 263</value>
+  </data>
+  <data name="buttonConvertOK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="buttonConvertOK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 29</value>
+    <value>176, 25</value>
   </data>
   <data name="buttonConvertOK.TabIndex" type="System.Int32, mscorlib">
     <value>21</value>
   </data>
   <data name="buttonConvertOK.Text" xml:space="preserve">
-    <value>应用转换</value>
+    <value>Convert</value>
   </data>
   <data name="&gt;&gt;buttonConvertOK.Name" xml:space="preserve">
     <value>buttonConvertOK</value>
@@ -484,16 +457,19 @@
     <value>False</value>
   </data>
   <data name="buttonFileToUTF8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 122</value>
+    <value>190, 106</value>
+  </data>
+  <data name="buttonFileToUTF8.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="buttonFileToUTF8.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 29</value>
+    <value>176, 25</value>
   </data>
   <data name="buttonFileToUTF8.TabIndex" type="System.Int32, mscorlib">
     <value>20</value>
   </data>
   <data name="buttonFileToUTF8.Text" xml:space="preserve">
-    <value>转换到UTF-8</value>
+    <value>Convert to UTF-8</value>
   </data>
   <data name="&gt;&gt;buttonFileToUTF8.Name" xml:space="preserve">
     <value>buttonFileToUTF8</value>
@@ -511,19 +487,16 @@
     <value>False</value>
   </data>
   <data name="buttonFileToGBK.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 86</value>
-  </data>
-  <data name="buttonFileToGBK.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>190, 75</value>
   </data>
   <data name="buttonFileToGBK.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 29</value>
+    <value>176, 25</value>
   </data>
   <data name="buttonFileToGBK.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
   <data name="buttonFileToGBK.Text" xml:space="preserve">
-    <value>转换到GB2312</value>
+    <value>Convert to GB2312</value>
   </data>
   <data name="&gt;&gt;buttonFileToGBK.Name" xml:space="preserve">
     <value>buttonFileToGBK</value>
@@ -541,19 +514,16 @@
     <value>False</value>
   </data>
   <data name="buttonFileToJPN.Location" type="System.Drawing.Point, System.Drawing">
-    <value>253, 49</value>
-  </data>
-  <data name="buttonFileToJPN.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>190, 42</value>
   </data>
   <data name="buttonFileToJPN.Size" type="System.Drawing.Size, System.Drawing">
-    <value>235, 29</value>
+    <value>176, 25</value>
   </data>
   <data name="buttonFileToJPN.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
   <data name="buttonFileToJPN.Text" xml:space="preserve">
-    <value>转换到Shift_JIS</value>
+    <value>Convert to Shift_JIS</value>
   </data>
   <data name="&gt;&gt;buttonFileToJPN.Name" xml:space="preserve">
     <value>buttonFileToJPN</value>
@@ -568,13 +538,16 @@
     <value>4</value>
   </data>
   <data name="listBoxBefore.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>17</value>
   </data>
   <data name="listBoxBefore.Location" type="System.Drawing.Point, System.Drawing">
-    <value>494, 49</value>
+    <value>370, 42</value>
+  </data>
+  <data name="listBoxBefore.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="listBoxBefore.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 284</value>
+    <value>174, 242</value>
   </data>
   <data name="listBoxBefore.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -592,13 +565,16 @@
     <value>5</value>
   </data>
   <data name="listBoxAfter.ItemHeight" type="System.Int32, mscorlib">
-    <value>20</value>
+    <value>17</value>
   </data>
   <data name="listBoxAfter.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 49</value>
+    <value>12, 42</value>
+  </data>
+  <data name="listBoxAfter.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="listBoxAfter.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 284</value>
+    <value>174, 242</value>
   </data>
   <data name="listBoxAfter.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -619,16 +595,19 @@
     <value>True</value>
   </data>
   <data name="labelFoldPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>147, 18</value>
+    <value>110, 16</value>
+  </data>
+  <data name="labelFoldPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="labelFoldPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 20</value>
+    <value>82, 17</value>
   </data>
   <data name="labelFoldPath.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="labelFoldPath.Text" xml:space="preserve">
-    <value>文件夹路径：</value>
+    <value>Folder path: </value>
   </data>
   <data name="&gt;&gt;labelFoldPath.Name" xml:space="preserve">
     <value>labelFoldPath</value>
@@ -643,16 +622,19 @@
     <value>7</value>
   </data>
   <data name="buttonOpenPath.Location" type="System.Drawing.Point, System.Drawing">
-    <value>16, 15</value>
+    <value>12, 13</value>
+  </data>
+  <data name="buttonOpenPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="buttonOpenPath.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 27</value>
+    <value>94, 23</value>
   </data>
   <data name="buttonOpenPath.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="buttonOpenPath.Text" xml:space="preserve">
-    <value>打开文件夹</value>
+    <value>Open folder</value>
   </data>
   <data name="&gt;&gt;buttonOpenPath.Name" xml:space="preserve">
     <value>buttonOpenPath</value>
@@ -667,16 +649,19 @@
     <value>8</value>
   </data>
   <data name="tabPageFile.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 29</value>
+    <value>4, 26</value>
+  </data>
+  <data name="tabPageFile.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 3, 2, 3</value>
   </data>
   <data name="tabPageFile.Size" type="System.Drawing.Size, System.Drawing">
-    <value>747, 374</value>
+    <value>558, 323</value>
   </data>
   <data name="tabPageFile.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tabPageFile.Text" xml:space="preserve">
-    <value>文件名</value>
+    <value>File names</value>
   </data>
   <data name="&gt;&gt;tabPageFile.Name" xml:space="preserve">
     <value>tabPageFile</value>
@@ -691,16 +676,13 @@
     <value>1</value>
   </data>
   <data name="tabControl1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>微软雅黑, 9pt</value>
+    <value>Microsoft YaHei, 9pt</value>
   </data>
   <data name="tabControl1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 8</value>
-  </data>
-  <data name="tabControl1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>13, 7</value>
   </data>
   <data name="tabControl1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>755, 407</value>
+    <value>566, 353</value>
   </data>
   <data name="tabControl1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -724,7 +706,7 @@
     <value>356, 17</value>
   </metadata>
   <data name="folderBrowserDialog.Description" xml:space="preserve">
-    <value>请选择文件路径</value>
+    <value>Select a folder</value>
   </data>
   <metadata name="backgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>564, 17</value>
@@ -733,10 +715,10 @@
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 15</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>785, 423</value>
+    <value>589, 367</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -2008,9 +1990,6 @@
         +B8AAOAHAADAAwAAgAEAAIABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAQAAgAEAAMADAADgBwAA
         +B8AAA==
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
