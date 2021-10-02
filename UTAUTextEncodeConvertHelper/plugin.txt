@@ -1,0 +1,2 @@
+name=UTAU TextEncode Convert Helper
+execute=UTAUTextEncodeConvertHelper.exe
